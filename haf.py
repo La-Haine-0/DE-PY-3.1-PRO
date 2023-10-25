@@ -58,7 +58,7 @@ class HuffmanCoding:
 
 if __name__ == '__main__':
     # Чтение текста из файла
-    with open('input.txt', 'r') as file:
+    with open('input.txt', 'r', encoding='utf-8') as file:
         text = file.read().replace('\n', '')
 
     # Инициализация объекта HuffmanCoding
